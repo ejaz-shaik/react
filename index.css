@@ -1,0 +1,161 @@
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px 0 50px;
+    border-bottom: 1px solid black;
+    box-shadow: 1px;
+}
+
+.app-logo {
+    width: 80px;
+}
+
+.nav-items > ul {
+    display: flex;
+}
+.nav-items > ul > li {
+    padding-right: 20px;
+    margin: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+.nav-link {
+    font-size: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.login-btn {
+    padding: 0 8px;
+    background-color: transparent;
+    color:rgb(255, 170, 86);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.login-btn:hover {
+    color: #00b837;
+}
+
+.filter {
+    display: flex;
+    margin: 1% 6%;
+}
+
+.search-div {
+    display: flex;
+}
+.search-box {
+    max-height: 36px;
+}
+
+.primary-btn {
+    background-color: #ececec;
+    color: #000;
+    border-radius: 8px;
+    padding: 10px 12px;
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    height: fit-content;
+    margin: 12px 10px;
+    cursor: pointer;
+}
+
+.card-container {
+    margin: 1% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 280px;
+    border-radius: 8px;
+    background-color: rgb(255, 245, 245);
+    padding-bottom: 10px;
+    margin: 12px;
+}
+.card-click {
+    text-decoration: none;
+    outline: 0px;
+    color: inherit;
+    background-color: rgb(255, 255, 255);
+}
+.card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+.card-img {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.card-content {
+    padding: 0 10px;
+}
+
+.shimmer-container {
+    margin: 3% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    width: 280px;
+    height: 400px;
+    background-color: #f0f0f0;
+    margin: 12px;
+    border-radius: 8px;
+}
+
+.form-container {
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin: 4% auto;
+    background-color: rgb(222, 255, 255);
+    border-radius: 8px;
+
+}
+
+
+.btn-prev {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 20px;
+}
+
+.btn-next {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 20px;
+}
+
+.res-menu {
+    max-width: 60%;
+    margin: 40px auto;
+}
+
+.menu-top-info {
+    background: linear-gradient(rgb(255, 255, 255) -6.71%, rgb(235, 235, 242) 56.19%, rgb(223, 223, 231) 106.56%);
+    padding: 0px 16px 16px;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+    padding: 0 16px 16px;
+}
+
+.card-item-content {
+    border-radius: 20px;
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 8px 16px 0px;
+    padding: 10px;
+}
+
