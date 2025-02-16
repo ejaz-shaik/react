@@ -1,0 +1,38 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is React repo covering all concepts",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "prod": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejaz-shaik/react.git"
+  },
+  "keywords": [],
+  "author": "Ejaz Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejaz-shaik/react/issues"
+  },
+  "homepage": "https://github.com/ejaz-shaik/react#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
+    "@tailwindcss/postcss": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.1.1",
+    "tailwindcss": "^4.0.0"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ]
+}
