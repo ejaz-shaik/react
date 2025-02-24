@@ -11,6 +11,7 @@ import UserContext from "./utils/UserContext";
 import appStore from "./utils/appStore";
 import { Provider } from "react-redux";
 import Cart from "./components/Cart";
+import Accordion from "./components/Accordion";
 
 const SigninForm = lazy(() => import("./components/SigninForm"));
 
@@ -62,6 +63,10 @@ const appRouter = createBrowserRouter([
             {
                 path: '/cart',
                 element: <Cart />
+            },
+            {
+                path: '/accordion',
+                element: <Accordion />
             }
         ],
         errorElement: <Error />
