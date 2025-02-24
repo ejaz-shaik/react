@@ -1,5 +1,18 @@
 # Repo with all the concepts of React
 
+# Build React app from scratch
+ 1. create and configure package.json using - npm init
+ 2. Install bundler (Parcel,Vite etc.)
+ 3. npm i react
+ 4. npm i react-dom
+ 5. import both React & ReactDOM in App.js
+ 6. For import and export specify that we are using module inside script tag - 
+       <script type="module" src="./App.js"></script>
+ 7. create local server and run our app using - npx parcel index.html
+ 8. in package.json configure -> "scripts" : { "start": "parcel index.html" } 
+       to simplify npx parcel index.html ---> npm start
+
+
 # Parcel
 - Dev build
 - Local server
@@ -61,3 +74,12 @@ Refer - React lifecycle diagram for better understanding
 2. Integration Testing
 3. End to End Testing - E2E Testing
 
+
+# Setting up Testing in our App
+- Install both React Testing Library and Jest
+- To use Babel Install required dependencies of Jest
+- Configure Babel using Babel.config.js
+- Configure Parcel config file to disable default babel transpilation
+- Configure Jest file - npx jest --init
+- Install jsdom library
+- Install @babel/preset-react & include it in babel config - to make JSX work in test cases
