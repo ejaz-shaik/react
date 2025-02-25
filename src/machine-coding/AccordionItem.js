@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 const AccordionItem = ({ title, body, isOpen, toggleItem }) => {
 
