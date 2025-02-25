@@ -11,7 +11,7 @@ import UserContext from "./utils/UserContext";
 import appStore from "./utils/appStore";
 import { Provider } from "react-redux";
 import Cart from "./components/Cart";
-import Accordion from "./components/Accordion";
+import Accordion from "./machine-coding/Accordion";
 
 const SigninForm = lazy(() => import("./components/SigninForm"));
 
