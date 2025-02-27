@@ -12,6 +12,7 @@ import appStore from "./utils/appStore";
 import { Provider } from "react-redux";
 import Cart from "./components/Cart";
 import Accordion from "./machine-coding/Accordion";
+import MemesPage from "./machine-coding/MemesPage";
 
 const SigninForm = lazy(() => import("./components/SigninForm"));
 
@@ -67,6 +68,10 @@ const appRouter = createBrowserRouter([
             {
                 path: '/accordion',
                 element: <Accordion />
+            },
+            {
+                path: '/memes',
+                element: <MemesPage />
             }
         ],
         errorElement: <Error />
