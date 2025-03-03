@@ -12,7 +12,7 @@ import appStore from "./utils/appStore";
 import { Provider } from "react-redux";
 import Cart from "./components/Cart";
 import Accordion from "./machine-coding/Accordion";
-import MemesPage from "./machine-coding/MemesPage";
+import MemesPage from "./machine-coding/infinite-scroll/MemesPage";
 
 const SigninForm = lazy(() => import("./components/SigninForm"));
 
